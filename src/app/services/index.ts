@@ -1,2 +1,1 @@
-export { WebSocketService } from './web-socket-service';
-export { LoggerService } from './logger-service';
+export { httpService } from './http-service';

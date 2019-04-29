@@ -1,6 +1,5 @@
 import * as React from 'react';
 
-
 interface ISearchComponentProps {
     onSearch: Function;
 }
@@ -32,7 +31,7 @@ export class SearchComponent extends React.Component<ISearchComponentProps, ISea
             <div className='input-group mb-3'>
                 <input type='text' className='form-control' placeholder='Search GIFs' onChange={this.onChange} />
                 <div className='input-group-append'>
-                    <button className='btn btn-outline-secondary' type='submit' onClick={this.onSubmit}>Submit</button>
+                    <button className='btn btn-outline-secondary' type='submit' onClick={this.onSubmit}>Search</button>
                 </div>
             </div>
         );

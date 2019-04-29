@@ -1,1 +1,0 @@
-export { IStockGridConfig, StockGridConfig } from './stock-grid-config';
